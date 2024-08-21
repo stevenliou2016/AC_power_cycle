@@ -1,0 +1,8 @@
+[Unit]
+Description=run AC
+
+[Service]
+ExecStart=/usr/bin/bash /usr/bin/ac_script.sh
+
+[Install]
+WantedBy=multi-user.target

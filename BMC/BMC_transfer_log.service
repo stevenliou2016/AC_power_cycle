@@ -1,0 +1,8 @@
+[Unit]
+Description=collect logs and transfer them to host
+
+[Service]
+ExecStart=/bin/bash /usr/bin/BMC_transfer_log.sh
+
+[Install]
+WantedBy=multi-user.target

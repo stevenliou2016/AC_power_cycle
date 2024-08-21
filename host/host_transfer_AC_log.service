@@ -1,0 +1,8 @@
+[Unit]
+Description=transfer AC log to relay
+
+[Service]
+ExecStart=/usr/bin/bash /usr/bin/host_transfer_AC_log.sh
+
+[Install]
+WantedBy=multi-user.target
